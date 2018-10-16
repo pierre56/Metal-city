@@ -1,0 +1,47 @@
+D:\Repository\Pierre56\Metal city (master)
+λ cd D:\Repository\Pierre56\Metal city
+
+D:\Repository\Pierre56\Metal city (master)
+λ npm install --global --production windows-build-tools
+
+> windows-build-tools@5.0.0 postinstall C:\Users\pierre le dorze\AppData\Roaming\npm\node_modules\windows-build-tools
+> node ./dist/index.js
+
+
+
+Downloading python-2.7.15.amd64.msi
+[>                                            ] 0.0% (0 B/s)
+Downloaded python-2.7.15.amd64.msi. Saved to C:\Users\pierre le dorze\.windows-build-tools\python-2.7.15.amd64.msi.
+Downloading vs_BuildTools.exe
+[>                                            ] 0.0% (0 B/s)
+Downloaded vs_BuildTools.exe. Saved to C:\Users\pierre le dorze\.windows-build-tools\vs_BuildTools.exe.
+
+Starting installation...
+Launched installers, now waiting for them to finish.
+This will likely take some time - please be patient!
+
+Status from the installers:
+---------- Visual Studio Build Tools ----------
+2018-10-16T11:14:36 : Error : Mettez à jour Visual Studio Installer avant de continuer.
+2018-10-16T11:14:36 : Verbose : Closing installer. Return code: 1.
+2018-10-16T11:14:36 : Error : Mettez à jour Visual Studio Installer avant de continuer.
+2018-10-16T11:14:36 : Verbose : Closing installer. Return code: 1.
+2018-10-16T11:14:36 : Verbose : Started the installed products provider service.
+------------------- Python --------------------
+Action start 11:14:13: InstallFinalize.
+CAQuietExec:  Uninstalling pip-9.0.1:
+CAQuietExec:    Successfully uninstalled pip-9.0.1
+CAQuietExec:  Uninstalling setuptools-28.8.0:
+CAQuietExec:    Successfully uninstalled setuptools-28.8.0
+
+
+Could not install Visual Studio Build Tools.
+Please find more details in the log files, which can be found at
+C:\Users\pierre le dorze\.windows-build-tools
+
+Now configuring Python...
+
+All done!
+
++ windows-build-tools@5.0.0
+added 144 packages from 96 contributors in 42.91s
